@@ -1,0 +1,9 @@
+{% extends 'material/base.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome to Customer churn predictor</h1>
+    <p>Click the button below to go to the configuration page</p>
+    <a href="{{ url_for('config') }}" class="btn btn-primary">Configuration Page</a>
+</div>
+{% endblock %}
