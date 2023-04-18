@@ -4,6 +4,8 @@ This application is an example of using IRIS Cloud SQL and integrated ML to solv
 
 As an example, the application uses a demo dataset of telecommunications company clients from https://www.kaggle.com/datasets/blastchar/telco-customer-churn.
 
+To try the application you can use [online demo](http://185.69.153.16:8011/form) or run it locally with your own Cloud SQL account.
+
 To start, use the command
 ```
 > docker-compose up --build
